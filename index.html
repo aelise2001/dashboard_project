@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+  <title> Oscar dashboard</title>
+
+
+<link rel="stylesheet" href="style.css"/>
+    
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
+
+
+
+</head>
+
+ <body style="background-color:#FCFBF4;">
+  
+<center>
+    <h1> 2024 Oscar Season Results
+    </h1>
+    <h3> <em>  A guide to this years' Oscars based on Best Picture nominated films. </em> </h3>
+
+    <h4> <em> By Tiana McGee </em> </h4>
+        <p> <em> March 17, 2024</em> </p>
+</center>
+
+
+
+<div class="opening">
+    <img src="https://d1u6g1e1nisfhs.cloudfront.net/wp-content/uploads/articles-the-oscars-w.jpg"   
+    
+    alt="The oscar trophy and a blurred background.">
+    
+    
+    
+    
+</div>
+
+
+
+
+<center>
+
+    
+    
+
+  
+    <div class="filter-container">
+
+     <b> 
+      <label>Box Office: </label> 
+
+    </b>  
+
+      <select id="color-filter">
+        <option value="all">All</option>
+        <option value="tiny">Less than $10 Million</option>
+        <option value="little">$10 Million - $100 Million</option>
+        <option value="big">$100 Million - $200 Million</option>
+        <option value="biggest">Greater than $200 Million</option>
+      </select>
+    </div>
+
+
+    
+    <div class="filter-container">
+
+      <b> <label>Genre:</label> </b> 
+        <input type="checkbox" id="type1" value="type1"> Drama
+        <input type="checkbox" id="type2" value="type2"> Comedy
+        <input type="checkbox" id="type3" value="type3"> Comedy-Drama
+        <input type="checkbox" id="type13" value="type13"> Romantic-Drama
+      </div>
+
+
+      <div class="filter-container">
+
+      <b> <label>Box Office:</label> </b> 
+        <input type="checkbox" id="type10" value="type10"> Type 10
+        <input type="checkbox" id="type11" value="type11"> Type 11
+        <input type="checkbox" id="type12" value="type12"> Type 12
+    
+      </div>
+
+    
+        <div class="filter-container">
+           <b> <label>Nominations:</label>  </b>
+            <input type="radio" name="size" value="small"> 1-4
+            <input type="radio" name="size" value="medium">5-8
+            <input type="radio" name="size" value="large"> 9-12
+            <input type="radio" name="size" value="all" checked> All
+    
+          </div>
+
+
+           <div class="filter-container">
+
+            <b> <label>Wins:</label> </b>
+            <button class="btn" data-price="tiny">0</button>
+            <button class="btn" data-price="little">1-4</button>
+            <button class="btn" data-price="big">5-7</button>
+            <button class="btn" data-price="all">All</button>
+          </div>
+     
+
+
+    </center>
+
+
+
+  
+
+<center>
+
+
+<p>
+
+
+    
+
+ 
+</p>
+</center>
+
+<center>
+
+    <div class="allBox">
+
+<div class="boxes"  data-type="type1" data-size="large"
+
+
+data-color="biggest"
+
+data-price="big"
+>
+
+    <div class = "img">
+        <img src="https://www.aestheticwalldecor.com/cdn/shop/files/oppenheimer-2023-movie-poster-aesthetic-wall-decor.jpg?v=1692556521" 
+
+        alt="Man in hat and suit with explosion behind him.."
+        
+        
+        
+        >
+
+<p>
+
+
+
+</div>
+
+<b> Oppenheimer </b> 
+
+
+<br>
+
+
+      
+   <b>
+Genre: 
+
+</b>
+Drama
+
+
+<br>
+
+<b>
+Box office:
+</b>
+$953.8 Million USD
+
+<br>
+
+
+<b>
+Number of nominations:
+</b>
+
+12
+
+<br>
+
+<b>
+Number of wins: 
+</b>
+7
+
+<br> 
+    </p>
+    
+</div>
+
+
+<div class="boxes " data-type="type3" data-size="medium"
+
+data-color="little"
+
+data-price="little" >
+
+
+
+
+    <div class = "img">
+        <img src=
+        
+        "https://image.tmdb.org/t/p/original/rHRAdNtDOyd5Ghrxp2V8b4cZ29b.jpg"
+        
+        alt="Man in suit with an overlay outline including chains, a sideways hat and 'thug life' finger tattoos "
+        
+        >
+    </div>
+    
+
+    <p>
+       <b> American Fiction </b> 
+      
+            <br> 
+
+
+<b>
+
+
+
+    Genre: 
+    
+    </b>
+    
+    Comedy-Drama
+    <br>
+
+<b>
+    Box office:
+    </b>
+    $22.9 Million USD
+    <br>
+    <b>
+    Number of nominations:
+</b>
+    6
+    
+    <br>
+    
+    <b>
+    Number of wins: 
+</b>
+    
+    1
+    
+    <br> 
+        </p>
+
+    </div>
+
+
+    <div class="boxes"
+    
+    
+    data-type="type1" data-size="medium"
+
+
+    data-color="little"
+
+    data-price="tiny" >
+    
+    
+
+       
+  <div class = "img">
+    <img src="https://assets.scriptslug.com/live/img/posters/x/_posterPageJpg/anatomy-of-a-fall-2023.jpg"
+
+    alt="two people standing in the snow staring at a third bloody body."
+    
+    >
+</div>
+
+        <p>
+            <b>  Anatomy of a Fall  </b>
+
+          
+
+           
+                <br> 
+
+
+<b>
+        Genre: 
+        
+    </b>
+        
+        Drama
+        <br>
+
+<b>
+        Box office:
+        </b>
+$32.2 Million USD
+
+        <br>
+        <b>
+        Number of nominations: 
+    </b>
+        
+        5
+        
+        <br>
+        
+        <b>
+        Number of wins: 
+    </b>
+        0
+        
+        <br> 
+            </p>
+    
+        </div>
+
+
+        <div class="boxes"
+        
+        data-type="type2" 
+
+        data-size="medium"
+
+
+        data-color="biggest"
+        
+        data-price="little" >
+        
+        
+
+
+            <div class = "img">
+                <img src=
+                
+                "https://i.ebayimg.com/images/g/O3MAAOSwiZ9k0HfD/s-l1200.webp"
+                
+                
+                alt="A muscular man holds a woman on his shoulders."
+                
+                >
+            </div>
+            
+
+            <p>
+                <b>  Barbie </b>
+                
+                    <br> 
+
+
+<b>
+            Genre: 
+            
+        </b>
+            
+            Comedy
+            <br>
+
+<b>
+            Box office:
+            </b>
+$1.446 Billion USD
+
+            <br>
+
+            <b>
+            Number of nominations: 
+        </b>
+            
+            7
+            
+            <br>
+            
+            <b>
+            Number of wins:
+        </b>
+            
+            1
+            
+            <br> 
+                </p>
+        
+            </div>
+
+            <!-- <div class="yip"> 
+            <p>  helkl thus ius fun </p>
+        </div> -->
+
+
+            <div class="boxes"
+            
+            data-type="type3" data-size="medium"
+            
+            
+            data-color="little"
+            
+            data-price="little" >
+
+
+  <div class = "img">
+    <img src="https://image.tmdb.org/t/p/original/7IE261RtuJFKtacFgfWaVA9AfMO.jpg"
+    
+    alt="three people stand surrounded by broken ornaments."
+    
+    >
+</div>
+
+                <p>
+                    <b> The Holdovers  </b>
+                   
+                        <br> 
+
+
+<b>
+                Genre: 
+            </b>
+                Comedy-Drama
+                <br>
+
+                <b>
+                Box office:
+            </b>
+               $43.1 Million USD
+                <br>
+                <b>
+                Number of nominations:
+            </b>
+                
+                5
+                
+                <br>
+                
+                <b>
+                Number of wins: 
+            </b>
+                
+                1
+                
+                <br> 
+                    </p>
+            
+                </div>
+            
+
+                <div class="boxes"
+                
+                
+                data-type="type1" data-size="large"
+
+                data-color="big"
+
+
+                data-price="tiny" >
+                
+                
+
+
+
+  <div class = "img">
+    <img src="https://image.tmdb.org/t/p/original/2uHS5BV3Xzwe8TbNarFBCrRNbSZ.jpg"
+
+    alt="A man in a cowboy hat holds a dark haired woman."
+    
+    >
+</div>
+
+                    <p>
+                        <b>  Killers of the Flower Moon  </b>
+                         
+                            <br> 
+
+                            <b>
+                    Genre:
+                    
+                </b>
+                    Drama
+                    <br>
+
+                    <b>
+                    Box office:
+                </b>
+$156.4 Million USD
+                    
+                    <br>
+                    <b>
+                    Number of nominations:
+                </b>
+                    10
+                    
+                    <br>
+                    
+                    <b>
+                    Number of wins:
+                </b>
+                    
+                    0
+                    
+                    <br> 
+                        </p>
+                
+                    </div>
+
+
+            <div class="boxes"
+            
+            data-type="type13" data-size="medium"
+
+            data-color="tiny"
+
+
+            data-price="tiny" >
+
+
+
+  <div class = "img">
+    <img src= "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/238/2023/10/28151325/6tdVwRyIfuquLmHRFmrFOa1UimH.jpg"
+    
+    alt="Man in suit with disheveled hair looks down."
+    >
+</div>
+
+                <p>
+                    <b> Maestro </b>
+                     
+                        <br> 
+
+
+                        <b>
+                Genre:
+            </b>
+
+                
+                Romantic-Drama
+                <br>
+
+                <b>
+                Box office:
+            </b>
+                $820, 567 USD
+                <br>
+                <b>
+                Number of nominations:
+            </b>
+                7
+                
+                <br>
+                
+                <b>
+                Number of wins: 
+            </b>
+                0
+                
+                <br> 
+                    </p>
+            
+                </div>
+
+
+            <div class="boxes"
+            data-type="type13" data-size="small"
+
+
+            data-color="little"
+
+            data-price="tiny" >
+            
+            
+
+
+
+  <div class = "img">
+    <img src="https://image.tmdb.org/t/p/original/4vYiIKmn2i7i29FFupYV0OMjGwg.jpg"
+
+
+    alt="A man and woman sit in front of a carousel."
+    
+    >
+</div>
+
+                <p>
+                    <b>  Past Lives </b>
+                    
+                        <br> 
+
+                        <b>
+                Genre:
+                
+            </b>
+                Romantic-Drama
+                <br>
+
+                <b>
+                Box office:
+            </b>
+                $29 Million USD
+                <br>
+                <b>
+                Number of nominations: 
+            </b>
+                2
+                
+                <br>
+                
+                <b>
+                Number of wins: 
+            </b>
+                0
+                
+                <br> 
+                    </p>
+            
+                </div>
+
+
+            <div class="boxes"
+            
+            data-type="type13" data-size="large"
+            
+            data-color="big"
+
+            data-price="little" >
+
+
+  <div class = "img">
+    <img src= "https://i.ebayimg.com/00/s/MTQyMFgxMDAw/z/k58AAOSw6dFlt1Cd/$_1.PNG"
+    
+    alt="A dark haired woman in an old timey dress stares into the distance."
+    
+    >
+</div>
+
+                <p>
+                    <b>  Poor Things  </b>
+                    
+                        <br> 
+
+                        <b>
+                Genre: 
+            </b>
+                Romantic-Drama
+                <br>
+
+                <b>
+                Box office:
+            </b>
+                $108 Million USD
+                <br>
+                <b>
+                Number of nominations:
+            </b>
+                11
+                
+                <br>
+                
+                <b>
+                Number of wins:
+            </b>
+                4
+                
+                <br> 
+                    </p>
+            
+                </div>
+
+
+            <div class="boxes"
+            
+            
+            data-type="type1" data-size="medium"
+
+            data-color="little"
+            
+            data-price="little" >
+
+
+  <div class = "img">
+    <img src="https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2024/02/01020533/Zone-of-Interest-poster.jpg"
+    
+    alt="A black sky with people gathered on a lawn."
+    >
+</div>
+
+                <p>
+                    <b> The Zone of Interest  </b>
+                    
+                        <br> 
+
+                        <b>
+                Genre: 
+            </b>
+                
+                Drama
+                <br>
+
+                <b>
+                Box office:
+            </b>
+            $27 Million USD
+                <br>
+                <b>
+                Number of nominations: 
+            </b>
+                5
+                
+
+        
+                <br>
+                
+                <b>
+                Number of wins:
+                
+            </b>
+                
+                2
+                
+                <br> 
+                    </p>
+            
+                </div>
+    
+            </div>
+
+
+            </center>
+
+<!-- <center>
+<p>
+I dont really need this
+</p>
+</center> -->
+
+
+
+
+<script src="script.js">
+
+
+
+</script>
+
+
+
+   
+
+
+
+
+</body>
+
+</html>
